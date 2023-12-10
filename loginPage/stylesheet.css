@@ -128,3 +128,28 @@ input {
         filter: hue-rotate(270deg);
     }
 }
+
+.pintrest {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.pintrest:hover {
+        animation: flash 1s infinite;
+}
+
+@keyframes flash {
+    0%, 100% {
+        background-color: red;
+        color: white;
+    }
+
+    50% {
+        background-color: white;
+        color: red;
+    }
+}
